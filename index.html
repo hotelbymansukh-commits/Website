@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mansukh Hospitality — Coming Soon</title>
+  <meta name="description" content="Distinctive hotels, genuine warmth, and experiences shaped by place. Mansukh Hospitality is coming soon.">
+  <meta property="og:title" content="Mansukh Hospitality — Coming Soon">
+  <meta property="og:description" content="Crafting stays worth remembering.">
+  <meta property="og:image" content="assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/mansukh-emblem.png" type="image/png">
+  <style>
+    :root{--ink:#24170f;--paper:#f3eadb;--bronze:#8a5426;--gold:#c99755;--line:rgba(75,45,25,.2)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font-family:Arial,Helvetica,sans-serif}a{color:inherit}
+    .page-shell{min-height:100svh;position:relative;overflow:hidden;display:grid;grid-template-rows:auto 1fr auto;background:radial-gradient(circle at 82% 45%,rgba(201,151,85,.22),transparent 29rem),linear-gradient(115deg,#f7f0e6 0%,var(--paper) 55%,#e7d4b7 100%)}
+    .page-shell::before{content:"";position:absolute;inset:0;border:1px solid rgba(92,54,27,.12);margin:12px;pointer-events:none}
+    .grain{position:absolute;inset:0;opacity:.11;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E");mix-blend-mode:multiply}
+    .topbar,footer,.hero{position:relative;z-index:1}.topbar{height:104px;padding:0 clamp(28px,5vw,76px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+    .brand-mark{display:flex;align-items:center;gap:16px;text-decoration:none}.brand-mark img{width:46px;height:46px;object-fit:contain}.brand-mark span{font:500 13px/1.1 Georgia,serif;text-transform:uppercase;letter-spacing:.19em}
+    .edition,.eyebrow,footer{font-size:10px;letter-spacing:.19em;text-transform:uppercase}.edition{opacity:.63}
+    .hero{width:100%;margin:0 auto;min-height:calc(100svh - 180px);padding:clamp(52px,7vh,94px) clamp(28px,6vw,92px) clamp(46px,6vh,76px);display:flex;align-items:center;isolation:isolate}
+    .hero-media{position:absolute;top:0;bottom:0;left:28%;width:72%;z-index:-3;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 18%,#000 100%);mask-image:linear-gradient(90deg,transparent 0%,#000 18%,#000 100%)}.hero-art,.hero-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}.hero-art{z-index:1}.hero-poster{z-index:0}
+    .art-wash{position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(247,240,230,.98) 0%,rgba(247,240,230,.92) 28%,rgba(247,240,230,.18) 53%,rgba(247,240,230,0) 76%)}
+    .hero-copy{max-width:680px;padding-bottom:3vh}.eyebrow{display:flex;align-items:center;gap:12px;color:var(--bronze);margin:0 0 28px}.eyebrow span{width:32px;height:1px;background:currentColor}
+    h1{margin:0;font:400 clamp(58px,6.4vw,104px)/.91 Georgia,"Times New Roman",serif;letter-spacing:-.052em}h1 em{color:var(--bronze);font-weight:400}
+    .intro{margin:32px 0 0;max-width:560px;font:400 clamp(16px,1.3vw,20px)/1.65 Georgia,serif;color:rgba(36,23,15,.72)}
+    .actions{margin-top:40px;display:flex;align-items:center;gap:32px;flex-wrap:wrap}.actions a{text-decoration:none;text-transform:uppercase;font-size:10px;letter-spacing:.16em}.actions span{font-size:17px}
+    .primary{min-width:190px;padding:17px 20px;display:flex;justify-content:space-between;align-items:center;color:#fff8ed!important;background:var(--ink);transition:transform .25s ease,background .25s ease}.primary:hover{transform:translateY(-3px);background:var(--bronze)}.text-link{border-bottom:1px solid var(--bronze);padding:12px 0 9px}
+    .progress-line{position:absolute;left:clamp(28px,6vw,92px);right:clamp(28px,6vw,92px);bottom:24px;height:1px;background:rgba(80,48,26,.16);overflow:hidden}.progress-line span{display:block;width:22%;height:100%;background:var(--bronze);animation:progress 5s ease-in-out infinite alternate}
+    footer{min-height:76px;margin:0 clamp(28px,5vw,76px);border-top:1px solid var(--line);display:grid;grid-template-columns:1fr auto auto auto;align-items:center;gap:20px}footer p{margin:0}footer a{text-decoration:none;text-transform:lowercase;letter-spacing:.13em;border-bottom:1px solid var(--line);padding-bottom:4px}.copyright{text-align:right;opacity:.55}.maker{text-align:right;color:rgba(36,23,15,.62)}.maker strong{color:var(--bronze);font-weight:800}
+    @keyframes progress{from{transform:translateX(-100%)}to{transform:translateX(450%)}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important}video.hero-art{display:none}}
+    @media(max-width:840px){.page-shell{overflow:visible}.topbar{height:76px;padding:0 22px}.edition{display:none}.hero{min-height:auto;display:block;padding:0 22px 38px}.hero-media{position:relative;inset:auto;width:calc(100% + 44px);aspect-ratio:16/9;margin-left:-22px;-webkit-mask-image:none;mask-image:none;z-index:0}.hero-art,.hero-poster{object-fit:cover;object-position:center}.art-wash{display:none}.hero-copy{position:relative;z-index:1;padding:34px 0 0}.eyebrow{margin-bottom:20px;font-size:9px;line-height:1.5}h1{font-size:clamp(48px,13vw,72px);line-height:.94}.intro{margin-top:24px}.actions{margin-top:30px;gap:18px;align-items:stretch}.primary{width:100%}.text-link{width:max-content}.progress-line{left:22px;right:22px;bottom:16px}footer{grid-template-columns:1fr;align-items:start;gap:14px;margin:0 22px;padding:26px 0 30px}footer>p:first-child{display:none}.copyright{text-align:left}.maker{grid-column:auto;grid-row:auto;text-align:left}}
+    @media(max-width:480px){.brand-mark span{font-size:10px}.brand-mark img{width:38px;height:38px}.hero{padding-bottom:42px}.intro{font-size:16px}footer{font-size:8px}}
+  </style>
+</head>
+<body>
+  <main class="page-shell">
+    <div class="grain" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand-mark" href="#top" aria-label="Mansukh Hospitality home"><img src="assets/mansukh-emblem.png" alt=""><span>Mansukh Hospitality</span></a>
+      <span class="edition">Est. 2026 · India</span>
+    </header>
+    <section class="hero" id="top">
+      <div class="hero-media">
+        <img class="hero-poster" src="assets/mansukh-miniature-builders.jpg" alt="Miniature hospitality artisans carefully assembling and polishing the Mansukh emblem">
+        <video class="hero-art" autoplay muted playsinline preload="metadata" poster="assets/mansukh-miniature-builders.jpg" aria-hidden="true"><source src="assets/mansukh-logo-build-clean.mp4" type="video/mp4"></video>
+      </div>
+      <div class="art-wash" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>Something exceptional is taking shape</p>
+        <h1>Crafting stays<br><em>worth remembering.</em></h1>
+        <p class="intro">Distinctive hotels. Genuine warmth. Experiences shaped by place. Mansukh Hospitality is preparing to welcome you.</p>
+        <div class="actions">
+          <a class="primary" href="mailto:hello@mansukhhospitality.in?subject=Keep%20me%20posted">Keep me posted <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="mailto:hello@mansukhhospitality.in">Partner with us <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="progress-line" aria-hidden="true"><span></span></div>
+    </section>
+    <footer>
+      <p>Opening our doors online soon.</p>
+      <a href="https://mansukhhospitality.in">mansukhhospitality.in</a>
+      <p class="copyright">© 2026 Mansukh Hospitality</p>
+      <p class="maker">Website by <strong>Kinetix Solutions</strong></p>
+    </footer>
+  </main>
+</body>
+</html>
